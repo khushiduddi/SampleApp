@@ -32,7 +32,14 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "Example", sender: nil)
+        let selectedQuestion = questions[indexPath.row]
+        performSegue(withIdentifier: "Example", sender: selectedQuestion)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let exampleVC = segue.destination as! SampleViewController
+        let selectedQuestion = sender as! String
+        exampleVC.questionWord = selectedQuestion
     }
 
 }
