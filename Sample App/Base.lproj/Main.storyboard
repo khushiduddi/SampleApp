@@ -50,12 +50,20 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9A-P6-dWs">
                                 <rect key="frame" x="167.5" y="128" width="79" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="rl3-H8-cqG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="79" id="xKc-my-kN2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who are you?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvM-tS-3eV">
                                 <rect key="frame" x="155" y="215" width="104" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Jd4-AO-MKa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="104" id="q5s-zS-z9O"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -65,11 +73,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xvM-tS-3eV" firstAttribute="centerX" secondItem="EYy-98-mM6" secondAttribute="centerX" id="JV0-hr-iXZ"/>
-                            <constraint firstItem="xvM-tS-3eV" firstAttribute="centerX" secondItem="EYy-98-mM6" secondAttribute="centerX" id="LM9-Pv-eww"/>
                             <constraint firstItem="v9A-P6-dWs" firstAttribute="top" secondItem="JEI-WR-CoA" secondAttribute="top" constant="40" id="hzb-f9-3ro"/>
                             <constraint firstItem="v9A-P6-dWs" firstAttribute="centerX" secondItem="EYy-98-mM6" secondAttribute="centerX" id="icy-KZ-bXw"/>
-                            <constraint firstItem="JEI-WR-CoA" firstAttribute="bottom" secondItem="xvM-tS-3eV" secondAttribute="bottom" constant="626" id="kGr-Jv-bqW"/>
-                            <constraint firstItem="v9A-P6-dWs" firstAttribute="centerX" secondItem="EYy-98-mM6" secondAttribute="centerX" id="mqn-dG-wZR"/>
                             <constraint firstItem="xvM-tS-3eV" firstAttribute="top" secondItem="v9A-P6-dWs" secondAttribute="bottom" constant="50" id="rn8-Ca-aM4"/>
                         </constraints>
                     </view>

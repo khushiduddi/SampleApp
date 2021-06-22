@@ -15,6 +15,8 @@
 		F0A61A9F267ACF610087B149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A61A9D267ACF610087B149 /* LaunchScreen.storyboard */; };
 		F0A61AA7267AD0F90087B149 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A61AA6267AD0F90087B149 /* TableViewController.swift */; };
 		F0A61AA9267C0CD10087B149 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A61AA8267C0CD10087B149 /* SampleViewController.swift */; };
+		F0A61AAC2681483C0087B149 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A61AAA2681483C0087B149 /* FieldTableViewCell.swift */; };
+		F0A61AAD2681483C0087B149 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0A61AAB2681483C0087B149 /* FieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F0A61AA0267ACF610087B149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0A61AA6267AD0F90087B149 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F0A61AA8267C0CD10087B149 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		F0A61AAA2681483C0087B149 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		F0A61AAB2681483C0087B149 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				F0A61A9B267ACF610087B149 /* Assets.xcassets */,
 				F0A61A9D267ACF610087B149 /* LaunchScreen.storyboard */,
 				F0A61AA0267ACF610087B149 /* Info.plist */,
+				F0A61AAA2681483C0087B149 /* FieldTableViewCell.swift */,
+				F0A61AAB2681483C0087B149 /* FieldTableViewCell.xib */,
 			);
 			path = "Sample App";
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			files = (
 				F0A61A9F267ACF610087B149 /* LaunchScreen.storyboard in Resources */,
 				F0A61A9C267ACF610087B149 /* Assets.xcassets in Resources */,
+				F0A61AAD2681483C0087B149 /* FieldTableViewCell.xib in Resources */,
 				F0A61A9A267ACF600087B149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 			files = (
 				F0A61AA9267C0CD10087B149 /* SampleViewController.swift in Sources */,
 				F0A61A97267ACF600087B149 /* ViewController.swift in Sources */,
+				F0A61AAC2681483C0087B149 /* FieldTableViewCell.swift in Sources */,
 				F0A61A93267ACF600087B149 /* AppDelegate.swift in Sources */,
 				F0A61A95267ACF600087B149 /* SceneDelegate.swift in Sources */,
 				F0A61AA7267AD0F90087B149 /* TableViewController.swift in Sources */,

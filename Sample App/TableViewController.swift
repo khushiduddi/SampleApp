@@ -19,11 +19,15 @@ class TableViewController: UITableViewController {
 
     // How many rows?
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return questions.count
+        return questions.count + 1
     }
 
     // What goes in each row?
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if indexPath.row == questions.count {
+            let fieldCell = tableView.dequeueReusableCell(withIdentifier: FieldTableViewCell.identifier, for: indexPath) as! FieldTableViewCell
+            return fieldCell
+        }
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
 
         cell.textLabel?.text = questions[indexPath.row]
